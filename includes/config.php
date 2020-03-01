@@ -12,7 +12,7 @@
 
 	$timezone = date_default_timezone_set("Africa/Lagos"); //Set timezone parameters.
 
-	$con = mysqli_connect("localhost","root","","slotify"); //Connect to database with database parameters
+	$con = mysqli_connect("sql2.freemysqlhosting.net","sql2324985","gW7%qR6%","sql2324985"); //Connect to database with database parameters
 
 	//conditional to check if connection to database was successful.
 	if(mysqli_connect_errno()) {
